@@ -5,6 +5,6 @@ import numpy as np
 
 gens = build_5_generators()
 
-virtually_stained_image = virtal_stain(1.0)
+virtually_stained_image = virtal_stain(1.0, gens)
 plt.imshow(np.squeeze(virtually_stained_image))
 
